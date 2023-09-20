@@ -14,3 +14,4 @@
     -Search Bar
     -Movie Suggestions# NetflixGPT
 # NetflixGPT
+# NetflixGPT
