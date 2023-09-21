@@ -1,5 +1,6 @@
 # NetflixGPT
-
+## Create react App
+## Configured TailwindCss
 
 
 
