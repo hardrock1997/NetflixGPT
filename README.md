@@ -1,11 +1,11 @@
 # NetflixGPT
-## Create react App
-## Configured TailwindCss
+- Create react App
+- Configured TailwindCss
 
 
 
 # Features
-## Login/Sign up Page
+- Login/Sign up Page
     - Sign In/Sign Up form
     - redirect to Browse Page
 
