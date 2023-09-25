@@ -15,6 +15,7 @@
 - Update Profile
 - Fetch from TMDB Movies
 
+
 # Features
 - Login/Sign up Page
     - Sign In/Sign Up form

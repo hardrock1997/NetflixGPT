@@ -71,10 +71,11 @@ const dispatch = useDispatch()
   return (
     <div>
         <Header/>
-        <div className='absolute'>
+        <div className='absolute w-screen'>
          <img
             src={HERO}
             alt='hero'
+            className='w-screen'
         />
         </div>
         <form onSubmit={(e)=>e.preventDefault()} className='p-12 bg-black absolute w-3/12 my-36 mx-auto right-0 left-0 text-white bg-opacity-80'>
