@@ -4,3 +4,11 @@ export const USERICON = 'https://occ-0-3752-3646.1.nflxso.net/dnm/api/v6/K6hjPJd
 
 export const EMAILREGX = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/
 export const PASSWORDREGX = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/
+
+export const API_OPTIONS = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNTRiMDM2YWI1NmNiYjBiNDQyZmZmNDVhNjg3ZWM2OCIsInN1YiI6IjY1MTAyZWQ0M2E0YTEyMDBhZDk5ZTA1MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dN9tJpIZYnY3siO9GKFIuhPINA1JEEt3BOQKKWH3tmU'
+    }
+  }
