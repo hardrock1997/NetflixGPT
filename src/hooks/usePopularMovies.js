@@ -4,10 +4,11 @@ import { useDispatch } from "react-redux"
 import { useEffect } from "react"
 import axios from "axios"
 import {POPULARMOVIESAPI} from '../utils/constants'
+import { useSelector } from "react-redux"
 
 const usePopularMovies = ()=>{
     const dispatch=useDispatch()
-
+    const popularMovies  = useSelector(store=>store.movies.popularMovies)
     const getPopularMovies = async ()=>{
         const data= await axios.get(POPULARMOVIESAPI,API_OPTIONS)
         const popularMovies = data.data?.results
@@ -15,7 +16,7 @@ const usePopularMovies = ()=>{
     }
 
         useEffect(()=>{
-        getPopularMovies()
+        !popularMovies && getPopularMovies()
         },[])
 
 }

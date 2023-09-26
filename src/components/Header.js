@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import {addUser,removeUser} from '../utils/userSlice'
 import { LOGO, USERICON } from '../utils/constants';
-import { toggleGptSearchView } from '../utils/gptSlice';
+import {toggleGptSearchView } from '../utils/gptSlice';
 import { SUPPORTED_LANGUAGES } from '../utils/constants';
 import { changeLanguage } from '../utils/configSlice';
 
