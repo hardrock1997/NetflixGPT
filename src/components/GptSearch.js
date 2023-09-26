@@ -5,16 +5,18 @@ import { HERO } from '../utils/constants'
 
 export const GptSearch = () => {
   return (
-    <div>
-         <div className='fixed w-screen -z-10'>
+    <>
+     <div className='fixed -z-10'>
          <img
             src={HERO}
             alt='hero'
-            className='w-screen'
+            className='h-screen object-cover'
         />
         </div>
+    <div className=''>
       <GptSearchBar/>
       <GptMovieSuggestions/>
     </div>
+    </>
   )
 }

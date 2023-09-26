@@ -75,11 +75,11 @@ const dispatch = useDispatch()
          <img
             src={HERO}
             alt='hero'
-            className='w-screen'
+            className='w-screen h-screen object-cover'
         />
         </div>
-        <form onSubmit={(e)=>e.preventDefault()} className='p-12 bg-black absolute w-3/12 my-36 mx-auto right-0 left-0 text-white bg-opacity-80'>
-            <h1 className='font-bold text-3xl py-0'>
+        <form onSubmit={(e)=>e.preventDefault()} className='p-12 bg-black absolute w-full md:w-3/12 my-36 mx-auto right-0 left-0 text-white bg-opacity-80'>
+            <h1 className='font-bold text-2xl md:text-3xl py-0 mb-4'>
                 {isSignInForm?'Sign In':'Sign Up'}
                 </h1>
             {!isSignInForm && 
